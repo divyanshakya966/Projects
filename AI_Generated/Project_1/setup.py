@@ -13,12 +13,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="calculus-calculator",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Divyansh Shakya",
+    author_email="divyanshakya966@gmail.com",
     description="A comprehensive calculus calculator with symbolic computation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/divyanshakya966/calculus-calculator",
+    url="https://github.com/divyanshakya966/Projects/tree/master/AI_Generated/Project_1",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

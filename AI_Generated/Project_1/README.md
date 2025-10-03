@@ -62,14 +62,14 @@ calculus_calculator/
 
 ### Option 1: Direct Installation
 ```bash
-git clone https://github.com/divyanshakya966/calculus-calculator.git
+git clone https://github.com/divyanshakya966/Projects/tree/master/AI_Generated/Project_1
 cd calculus-calculator
 pip install -r requirements.txt
 ```
 
 ### Option 2: Development Installation
 ```bash
-git clone https://github.com/divyanshakya966/calculus-calculator.git
+git clone https://github.com/divyanshakya966/Projects/tree/master/AI_Generated/Project_1
 cd calculus-calculator
 pip install -e .
 ```
@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/divyanshakya966/calculus-calculator/issues) page
+1. Check the [Issues](https://github.com/divyanshakya966/Projects/tree/master/AI_Generated/Project_1) page
 2. Create a new issue with detailed description
 3. Contact the maintainers
 
@@ -263,4 +263,4 @@ If you encounter any issues or have questions:
 
 **Made with ❤️ for mathematics enthusiasts and students worldwide**
 
-*For more information, visit our [documentation](https://github.com/divyanshakya966/calculus-calculator/wiki) or check out the [examples](examples/) directory.*
+*For more information, visit our [documentation](https://github.com/divyanshakya966/Projects/tree/master/AI_Generated/Project_1) or check out the [examples](examples/) directory.*
