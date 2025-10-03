@@ -62,14 +62,14 @@ calculus_calculator/
 
 ### Option 1: Direct Installation
 ```bash
-git clone https://github.com/yourusername/calculus-calculator.git
+git clone https://github.com/divyanshakya966/calculus-calculator.git
 cd calculus-calculator
 pip install -r requirements.txt
 ```
 
 ### Option 2: Development Installation
 ```bash
-git clone https://github.com/yourusername/calculus-calculator.git
+git clone https://github.com/divyanshakya966/calculus-calculator.git
 cd calculus-calculator
 pip install -e .
 ```
