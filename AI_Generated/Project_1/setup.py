@@ -18,7 +18,7 @@ setup(
     description="A comprehensive calculus calculator with symbolic computation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/calculus-calculator",
+    url="https://github.com/divyanshakya966/calculus-calculator",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

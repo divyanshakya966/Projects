@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/calculus-calculator/issues) page
+1. Check the [Issues](https://github.com/divyanshakya966/calculus-calculator/issues) page
 2. Create a new issue with detailed description
 3. Contact the maintainers
 
@@ -263,4 +263,4 @@ If you encounter any issues or have questions:
 
 **Made with ❤️ for mathematics enthusiasts and students worldwide**
 
-*For more information, visit our [documentation](https://github.com/yourusername/calculus-calculator/wiki) or check out the [examples](examples/) directory.*
+*For more information, visit our [documentation](https://github.com/divyanshakya966/calculus-calculator/wiki) or check out the [examples](examples/) directory.*
