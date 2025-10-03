@@ -1,0 +1,46 @@
+# Derivative Formulas for Calculus Calculator
+# Format: function = derivative
+
+# Basic Derivative Rules
+c = 0
+x = 1
+x^n = n*x^(n-1)
+1/x = -1/x^2
+sqrt(x) = 1/(2*sqrt(x))
+1/sqrt(x) = -1/(2*x^(3/2))
+
+# Trigonometric Functions
+sin(x) = cos(x)
+cos(x) = -sin(x)
+tan(x) = sec^2(x)
+cot(x) = -csc^2(x)
+sec(x) = sec(x)*tan(x)
+csc(x) = -csc(x)*cot(x)
+
+# Inverse Trigonometric Functions
+asin(x) = 1/sqrt(1-x^2)
+acos(x) = -1/sqrt(1-x^2)
+atan(x) = 1/(1+x^2)
+acot(x) = -1/(1+x^2)
+asec(x) = 1/(|x|*sqrt(x^2-1))
+acsc(x) = -1/(|x|*sqrt(x^2-1))
+
+# Exponential and Logarithmic Functions
+e^x = e^x
+a^x = a^x*ln(a)
+ln(x) = 1/x
+log(x) = 1/(x*ln(10))
+log_a(x) = 1/(x*ln(a))
+
+# Hyperbolic Functions
+sinh(x) = cosh(x)
+cosh(x) = sinh(x)
+tanh(x) = sech^2(x)
+coth(x) = -csch^2(x)
+sech(x) = -sech(x)*tanh(x)
+csch(x) = -csch(x)*coth(x)
+
+# Advanced Functions
+|x| = x/|x|
+floor(x) = 0
+ceil(x) = 0

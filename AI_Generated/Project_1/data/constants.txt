@@ -1,0 +1,33 @@
+# Mathematical Constants for Calculus Calculator
+
+# Fundamental Constants
+pi = 3.141592653589793
+e = 2.718281828459045
+tau = 6.283185307179586
+
+# Important Mathematical Constants
+phi = 1.618033988749895
+gamma = 0.5772156649015329
+sqrt2 = 1.4142135623730951
+sqrt3 = 1.7320508075688772
+sqrt5 = 2.23606797749979
+
+# Conversion Factors
+deg_to_rad = 0.017453292519943295
+rad_to_deg = 57.29577951308232
+feet_to_meters = 0.3048
+inches_to_cm = 2.54
+miles_to_km = 1.609344
+
+# Physical Constants (for reference)
+speed_light = 299792458
+planck = 6.62607015e-34
+avogadro = 6.02214076e23
+boltzmann = 1.380649e-23
+
+# Special Values
+inf = inf
+nan = nan
+golden_ratio = 1.618033988749895
+silver_ratio = 2.4142135623730951
+plastic_number = 1.3247179572447460

@@ -1,0 +1,52 @@
+# Integral Formulas for Calculus Calculator
+# Format: function = integral
+
+# Basic Integration Rules
+1 = x
+x = x^2/2
+x^n = x^(n+1)/(n+1)
+1/x = ln|x|
+1/x^n = -1/((n-1)*x^(n-1))
+sqrt(x) = (2/3)*x^(3/2)
+1/sqrt(x) = 2*sqrt(x)
+
+# Trigonometric Functions
+sin(x) = -cos(x)
+cos(x) = sin(x)
+tan(x) = -ln|cos(x)|
+cot(x) = ln|sin(x)|
+sec(x) = ln|sec(x) + tan(x)|
+csc(x) = -ln|csc(x) + cot(x)|
+sec^2(x) = tan(x)
+csc^2(x) = -cot(x)
+sec(x)*tan(x) = sec(x)
+csc(x)*cot(x) = -csc(x)
+
+# Inverse Trigonometric Forms
+1/sqrt(1-x^2) = arcsin(x)
+1/(1+x^2) = arctan(x)
+1/sqrt(x^2-1) = ln|x + sqrt(x^2-1)|
+1/sqrt(x^2+a^2) = ln|x + sqrt(x^2+a^2)|
+1/sqrt(a^2-x^2) = arcsin(x/a)
+1/(x^2+a^2) = (1/a)*arctan(x/a)
+
+# Exponential and Logarithmic Functions
+e^x = e^x
+a^x = a^x/ln(a)
+ln(x) = x*ln(x) - x
+log(x) = x*log(x) - x/ln(10)
+x*ln(x) = x^2*ln(x)/2 - x^2/4
+
+# Hyperbolic Functions
+sinh(x) = cosh(x)
+cosh(x) = sinh(x)
+tanh(x) = ln|cosh(x)|
+coth(x) = ln|sinh(x)|
+sech(x) = arctan(sinh(x))
+csch(x) = ln|tanh(x/2)|
+
+# Rational Functions
+1/(x+a) = ln|x+a|
+x/(x+a) = x - a*ln|x+a|
+1/(x^2+a^2) = (1/a)*arctan(x/a)
+x/(x^2+a^2) = (1/2)*ln(x^2+a^2)

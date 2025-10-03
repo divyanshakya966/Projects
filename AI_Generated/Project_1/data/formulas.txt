@@ -1,0 +1,120 @@
+# General Mathematical Formulas for Calculus Calculator
+
+[Algebraic]
+# Quadratic Formula
+quadratic = (-b +/- sqrt(b^2 - 4ac)) / (2a)
+
+# Binomial Theorem
+binomial = (a + b)^n = sum(C(n,k) * a^(n-k) * b^k)
+
+# Difference of Squares
+diff_squares = a^2 - b^2 = (a+b)(a-b)
+
+# Perfect Square Trinomials
+perfect_square_pos = a^2 + 2ab + b^2 = (a+b)^2
+perfect_square_neg = a^2 - 2ab + b^2 = (a-b)^2
+
+# Sum and Difference of Cubes
+sum_cubes = a^3 + b^3 = (a+b)(a^2-ab+b^2)
+diff_cubes = a^3 - b^3 = (a-b)(a^2+ab+b^2)
+
+# Arithmetic and Geometric Series
+arithmetic_sum = S_n = n/2 * (2a + (n-1)d)
+geometric_sum = S_n = a(1-r^n)/(1-r)
+
+[Trigonometric]
+# Pythagorean Identities
+pythagorean1 = sin^2(x) + cos^2(x) = 1
+pythagorean2 = 1 + tan^2(x) = sec^2(x)
+pythagorean3 = 1 + cot^2(x) = csc^2(x)
+
+# Angle Addition and Subtraction
+sin_add = sin(a + b) = sin(a)cos(b) + cos(a)sin(b)
+sin_sub = sin(a - b) = sin(a)cos(b) - cos(a)sin(b)
+cos_add = cos(a + b) = cos(a)cos(b) - sin(a)sin(b)
+cos_sub = cos(a - b) = cos(a)cos(b) + sin(a)sin(b)
+tan_add = tan(a + b) = (tan(a) + tan(b))/(1 - tan(a)tan(b))
+tan_sub = tan(a - b) = (tan(a) - tan(b))/(1 + tan(a)tan(b))
+
+# Double Angle Formulas
+sin_double = sin(2x) = 2sin(x)cos(x)
+cos_double1 = cos(2x) = cos^2(x) - sin^2(x)
+cos_double2 = cos(2x) = 2cos^2(x) - 1
+cos_double3 = cos(2x) = 1 - 2sin^2(x)
+tan_double = tan(2x) = 2tan(x)/(1-tan^2(x))
+
+# Half Angle Formulas
+sin_half = sin(x/2) = +/- sqrt((1-cos(x))/2)
+cos_half = cos(x/2) = +/- sqrt((1+cos(x))/2)
+tan_half = tan(x/2) = +/- sqrt((1-cos(x))/(1+cos(x)))
+
+# Product-to-Sum Formulas
+sin_sin = sin(a)sin(b) = (1/2)[cos(a-b) - cos(a+b)]
+cos_cos = cos(a)cos(b) = (1/2)[cos(a-b) + cos(a+b)]
+sin_cos = sin(a)cos(b) = (1/2)[sin(a-b) + sin(a+b)]
+
+[Logarithmic]
+# Logarithm Properties
+log_product = log(ab) = log(a) + log(b)
+log_quotient = log(a/b) = log(a) - log(b)
+log_power = log(a^n) = n*log(a)
+log_root = log(root_n(a)) = log(a)/n
+
+# Change of Base
+change_base = log_a(x) = ln(x)/ln(a) = log(x)/log(a)
+
+# Natural Logarithm Properties
+ln_e = ln(e) = 1
+ln_1 = ln(1) = 0
+ln_ex = ln(e^x) = x
+e_lnx = e^(ln(x)) = x
+
+[Exponential]
+# Exponential Properties
+exp_product = a^m * a^n = a^(m+n)
+exp_quotient = a^m / a^n = a^(m-n)
+exp_power = (a^m)^n = a^(mn)
+exp_root = root_n(a^m) = a^(m/n)
+exp_fraction = a^(m/n) = root_n(a^m)
+
+# Special Exponential Values
+a_0 = a^0 = 1
+a_1 = a^1 = a
+a_neg = a^(-n) = 1/a^n
+zero_exp = 0^n = 0 (for n > 0)
+
+[Calculus]
+# Limits
+limit_basic = lim(x->a) f(x) = L
+limit_squeeze = If g(x) <= f(x) <= h(x) and lim g(x) = lim h(x) = L, then lim f(x) = L
+
+# Derivative Rules
+power_rule = d/dx[x^n] = n*x^(n-1)
+product_rule = d/dx[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)
+quotient_rule = d/dx[f(x)/g(x)] = [f'(x)g(x) - f(x)g'(x)]/[g(x)]^2
+chain_rule = d/dx[f(g(x))] = f'(g(x)) * g'(x)
+
+# Integration Rules
+constant_rule = integral(k*f(x)) = k*integral(f(x))
+sum_rule = integral(f(x) + g(x)) = integral(f(x)) + integral(g(x))
+substitution = integral(f(g(x))*g'(x)) = F(g(x)) + C
+by_parts = integral(u*dv) = u*v - integral(v*du)
+
+[Geometry]
+# Area Formulas
+circle_area = A = pi*r^2
+rectangle_area = A = l*w
+triangle_area = A = (1/2)*b*h
+trapezoid_area = A = (1/2)*(b1+b2)*h
+ellipse_area = A = pi*a*b
+
+# Volume Formulas
+sphere_volume = V = (4/3)*pi*r^3
+cylinder_volume = V = pi*r^2*h
+cone_volume = V = (1/3)*pi*r^2*h
+rectangular_prism = V = l*w*h
+
+# Surface Area Formulas
+sphere_surface = SA = 4*pi*r^2
+cylinder_surface = SA = 2*pi*r*(r+h)
+cone_surface = SA = pi*r*(r+s)
